@@ -159,7 +159,7 @@ h1{
 ![OUTPUT](./outEX8.png)
 
 ## HTML VALIDATOR:
-![HTML VALIDATOR](./validEX8)
+![HTML VALIDATOR](./validEX8.png)
 
 ## RESULT:
 
