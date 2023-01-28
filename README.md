@@ -30,6 +30,7 @@ Publish the website in the given URL.
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -38,6 +39,7 @@ Publish the website in the given URL.
 </head>
 
 <body>
+
     <div class="container">
         <h1>Calculator</h1>
 
@@ -86,22 +88,32 @@ Publish the website in the given URL.
 index.js
 
 let screen = document.getElementById('screen');
+
 buttons = document.querySelectorAll('button');
 let screenValue = '';
-for (item of buttons) {
-    item.addEventListener('click', (e) => {
+
+for (item of buttons) 
+
+{
+
+    item.addEventListener('click', (e) =>
+     {
         buttonText = e.target.innerText;
+
         console.log('Button text is ', buttonText);
-        if (buttonText == 'X') {
+        if (buttonText == 'X')
+         {
             buttonText = '*';
             screenValue += buttonText;
             screen.value = screenValue;
         }
-        else if (buttonText == 'C') {
+        else if (buttonText == 'C')
+         {
             screenValue = "";
             screen.value = screenValue;
         }
-        else if (buttonText == '=') {
+        else if (buttonText == '=') 
+        {
             screen.value = eval(screenValue);
         }
         else {
@@ -114,16 +126,22 @@ for (item of buttons) {
 
 style.css
 
-.container{
+.container
+{
+    
     text-align: center;
     margin-top:23px
 }
 
-table{
+table
+{
+   
     margin: auto;
 }
 
-input{
+input
+{
+   
     border-radius: 21px;
     border: 5px solid #244624;
     font-size:34px;
@@ -131,7 +149,10 @@ input{
     width: 456px;
 }
 
-button{
+button
+
+{
+
     border-radius: 20px;
     font-size: 40px;
     background: #978fa0;
@@ -140,19 +161,27 @@ button{
     margin: 6px;
 }
 
-.calculator{ 
+.calculator
+{ 
+
     border: 4px solid #13695d;
     background-color: #ff99f7;
     padding: 23px;
+
     border-radius: 53px;
+
     display: inline-block;
     
 }
+h1
 
-h1{
+{
+
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 '''
 
 ## OUTPUT:
