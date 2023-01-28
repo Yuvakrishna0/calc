@@ -25,7 +25,7 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-'''
+```python
 <!DOCTYPE html>
 <html lang="en">
 
@@ -182,7 +182,7 @@ h1
 }
 
 
-'''
+```
 
 ## OUTPUT:
 ![OUTPUT](./outEX8.png)
